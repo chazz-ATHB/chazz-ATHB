@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+  <title id="t">Charles VanDercook — CTO, Andrew The Homebuyer</title>
+  <desc id="d">Automation, data and AI for real-estate operations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#0A1A33"/>
+      <stop offset="0.7" stop-color="#10284D"/>
+      <stop offset="1" stop-color="#0E3B4A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#F5A524"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="18" fill="url(#grid)"/>
+
+  <!-- node graph: systems connected -->
+  <g stroke-linecap="round">
+    <path d="M930 80 L1040 140 L1160 90 M1040 140 L1010 230 M1040 140 L1150 215" stroke="url(#line)" stroke-width="3" fill="none" opacity="0.9"/>
+    <circle cx="930" cy="80" r="10" fill="#14B8A6"/>
+    <circle cx="1160" cy="90" r="10" fill="#F5A524"/>
+    <circle cx="1010" cy="230" r="10" fill="#14B8A6"/>
+    <circle cx="1150" cy="215" r="10" fill="#F5A524"/>
+    <circle cx="1040" cy="140" r="18" fill="#F8F5EE"/>
+    <circle cx="1040" cy="140" r="8" fill="#10284D"/>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="80" y="104" fill="#F5A524" font-size="20" font-weight="700" letter-spacing="6">CTO · ANDREW THE HOMEBUYER</text>
+    <text x="78" y="172" fill="#F8F5EE" font-size="64" font-weight="800">Charles VanDercook</text>
+    <text x="80" y="218" fill="#9FE7DD" font-size="25" font-weight="500">Automation, data and AI for real-estate operations.</text>
+  </g>
+  <rect x="80" y="246" width="200" height="4" rx="2" fill="url(#line)"/>
+</svg>
